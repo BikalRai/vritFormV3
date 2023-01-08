@@ -73,6 +73,7 @@ const RegistrationForm = ({ setIsRegistered, setUserDetail, userDetail }) => {
     console.log(userInfo);
     console.log(userDetail, 'inreg');
 
+    // mui show password / hide password functionality and state
     const [showPassword, setShowPassword] = React.useState(false);
 
     const handleClickShowPassword = () => setShowPassword((show) => !show);
